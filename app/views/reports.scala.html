@@ -1,0 +1,34 @@
+@(message: String)
+@main(message) {
+<div class="content_container">
+   <div class="left_nav" id="about_left_nav">
+      <h2 class="services" id="about_left_nav_sevices">Services</h2>
+      <ul>
+ 	     <li class="left_nav_link"><a id="about_left_nav_training_details" href="/training_details">Training Details<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_health_statistics" href="/health_statistics">Health Statistics<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_health_days" href="/health_days">Health Days & Themes<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_reports" href="/reports">Reports by SIHFW<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_committee" href="/committee">Reports Committee<span class="left_nav_arrow"></span></a>
+      </ul>
+   </div>
+   <div class="right_nav" id="about_right_nav">
+      <div class="page_banner" id="about_right_nav_page_banner">
+         <img id="about_right_nav_page_banner_image" src="@routes.Assets.at("images/about/report_banner.png")" />
+      </div>
+      <h3 id="about_right_nav_header">Reports by SIHFW</h3>
+      <div class="content_layout" id="about_right_nav_conent">
+         <p>You can download the following files for the further reference</p>
+         <ul>
+			<a class="challan" href="/download/report" target="_blank"><img src="@routes.Assets.at("images/about/reports.png")" /></a>
+		 </ul>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+         </br>
+      </div>
+   </div>
+</div>
+</div>
+}

@@ -1,0 +1,43 @@
+eclipsify
+run
+run 8000
+run 800
+run 8000
+clean
+run 8000
+clean
+compile
+clean
+compile
+run
+clean
+compile
+run
+run 8000
+run 800
+run 8000
+run
+run 8000
+run
+clean
+compile
+clean
+compile
+run
+clean
+compile
+run
+run 8000
+run
+run 8000
+run
+run 8000
+run
+run 7000
+clean
+compile
+run 8000
+clean
+complie
+compile
+run

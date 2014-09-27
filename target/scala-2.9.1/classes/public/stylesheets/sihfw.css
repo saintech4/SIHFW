@@ -1,0 +1,787 @@
+
+html {
+    background: url("../images/main-bg.png") repeat scroll center center #FFFFFF;
+    color: #000000;
+}
+
+body {
+	color: #333;
+	font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-size: 11pt;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+/* 
+ * ===========================
+ * SIHFW Home page Container
+ * =========================== 
+ */
+#container {
+	width: 970px;
+	height: 100%;
+	border-style: hidden;
+	border-color: #c0c0c0;
+	border-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top_img {
+height: 109px;
+	border: 1px solid #36597D;
+	background-color: #27527D;
+}
+
+/* 
+ * =======
+ * Top bar
+ * =======
+ */
+#top_bar {
+	font-size: 12pt;
+	position: relative;
+	height: 40px;
+	background-color: #D5E3E5;
+	border-color: black;
+	min-width: 968px;
+	opacity: 1;
+	border-bottom: 1px solid #36597D;
+	border-left: 1px solid #36597D;
+	border-right: 1px solid #36597D;
+}
+
+/* 
+ * ============
+ * Top bar menu
+ * ============
+ */
+#top_bar ul {
+	position: absolute;
+	top: -8px;
+	width: 970px;
+	height: 40px;	
+}
+
+#top_bar ul li {
+	display: inline;
+	float: left;
+}
+
+/*
+ * Border left for the SIHFW link in the top bar
+ */
+.sihfw a {
+	margin-left: -32px;
+	height: 40px;
+}
+
+/*
+ * Top bar links 
+ */
+#top_bar ul li a {
+	font-size: 11pt;
+	font-weight:bold;
+	color: #36597D;
+	height: 40px;
+	text-decoration: none;	
+	margin-right: 0px;
+	padding: 8px 20px 9px 20px;
+}
+
+img.left_nav_arrow
+{
+    position: relative;
+    float: right;
+    padding-top: 4px;
+}
+
+.left_nav_arrow
+{
+    position: relative;
+    float: right;
+    padding-top: 4px;       
+}
+
+
+#top_bar ul li a:hover {
+	background: #36597D;
+	background-image: linear-gradient(bottom, #36597D 47%, #2A5E92 74%, #366CA3 87%);
+	background-image: -o-linear-gradient(bottom, #36597D 47%, #2A5E92 74%, #366CA3 87%);
+	background-image: -moz-linear-gradient(bottom, #36597D 47%, #2A5E92 74%, #366CA3 87%);
+	background-image: -webkit-linear-gradient(bottom, #36597D 47%, #2A5E92 74%, #366CA3 87%);
+	background-image: -ms-linear-gradient(bottom, #36597D 47%, #2A5E92 74%, #366CA3 87%);	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2A5E92', endColorstr='#366CA3');		/* IE */
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.47, #36597D),
+		color-stop(0.74, #2A5E92),
+		color-stop(0.87, #366CA3)
+	);
+}
+
+/*
+ *  Top bar links (hover, link, visited)
+ */
+#top_bar ul li a:hover{
+	color: #fff;
+	font-wait: bold;
+	text-decoration: none;
+}
+
+/* 
+ * ==============
+ * Contact Us bar 
+ * ==============
+ */
+#contact_bar {
+	position: relative;
+	top: 10px;
+    width: 970px;
+    height: 25px;
+    background-color: #FAFAFA;
+    border: 1px solid #365A7E;
+	border-radius: 5px;
+    margin-bottom: 19px;
+}
+
+#contact_bar span {
+	color: #333333;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+#contact_bar a, .contact_info {									/* Contact bar and the About page mail address */
+	color: #3B5998;
+    text-decoration: none;
+}
+
+/* 
+ * =======
+ * Content
+ * =======
+ */
+#content {
+	width: 970px;
+	height: auto;
+	border: 1px solid #C7D9ED;
+	border-radius: 5px;
+}
+
+/*
+ * Nivo Slider for the Home page
+ */
+.slider-wrapper { 
+	width: 100%; 
+	margin: 0px auto;
+}
+
+.theme-default #slider {
+    margin: 0px auto 0 auto;
+}
+
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+    margin-top:150px;
+}
+
+/* 
+ * ===============================
+ * Content with left and right nav
+ * ===============================
+ */
+/*
+ * The content container for the Home, mr (Market Research), 
+ * bi (Business Intelligence), bd (Big Data), wd (Web Development), about, contact page
+ */
+.content_container {
+	width: 970px;
+	height: auto;
+}
+
+/*
+ * Left nav
+ * Used by: mr, bi, bd, wd, about and contact page 
+ */
+.left_nav {	
+	float: left;
+	width: 208px;
+	height: auto;
+}
+
+/*
+ * Right nav
+ * Used by: mr, bi, bd, wd, about and contact page 
+ */
+.right_nav {	
+	float: right;
+	width: 720px;
+	height: auto;
+	border: 1px solid #C7D9ED;
+	border-radius: 5px;
+}
+
+/*
+ * Left nav header
+ */
+.left_nav h2 {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	border-radius: 5px;
+	color: #fff;
+	margin: 0px 0 0px;
+	background-color: #27527D;
+	padding: 2px 10px 3px;
+	border: 1px solid #E1E1E1;
+	width: 208px;
+}
+
+/*
+ * Left nav header's margin top for the mr and bi page
+ */
+#header_mr, #header_bi {
+	margin-top: 15px;
+}
+
+/*
+ * Left nav menu list
+ */
+.left_nav ul {
+	color: #353535;
+	line-height: 21px;
+	font-size: 14px;
+	display: block;	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 208px;
+}
+
+.left_nav ul li {
+	font-size: 1em;
+	display: list-item;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 21px;
+}
+
+/*
+ * Left nav menu list anchor 
+ */
+.left_nav ul li a {
+	display: block;
+	color: #005FB7;
+	text-decoration: none;
+	outline: 0;
+	padding: 5px 10px 5px 10px;
+	border-bottom: 1px dashed #CCC;
+	width: 208px;
+}
+
+.left_nav ul li a:hover {
+   background-color: #dfecf8;
+   border-bottom: 1px dashed #588bbe;
+}
+
+/*
+ * Right nav page banner
+ */
+.right_nav div.page_banner {
+	margin: 15px 15px 15px 10px;
+	width: 695px;
+	height: 180px;
+}
+
+/*
+ * Right nav page banner
+ */
+.right_nav div.activities_banner {
+	margin: 15px 15px 15px 10px;
+	width: 695px;
+	border: 1px solid #27527D;
+}
+
+/*
+ * Right nav page banner
+ */
+.right_nav div.photo_banner {
+	margin: 06px 08px 15px 5px;
+	width: 695px;
+	height: 400px;
+}
+
+/*
+ * Right nav page banner image's width and height for the mr (Market Research), 
+ * bi (Business Intelligence), bd (Big Data), contact, about page
+ */
+.right_nav div.page_banner img {
+	width: 695px;
+	height: 180px;
+}
+
+.img_committee_main{
+position:relative;
+	left:50%; 
+    top:50%;
+    margin-left:-105px; /*image width/2 */
+  
+}
+
+div.img_committee {
+	margin: 2px;
+	margin-left:29px;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}	
+
+div.img img {
+  	display: inline;
+  	margin: 3px;
+ 	border: 1px solid #0000ff;
+}
+
+div.img_committee a:hover img {
+  	border: 1px solid #fffff;
+}
+
+div.desc {
+  	text-align: center;
+  	font-size: 10px;
+  	margin-top:-12px;
+  	margin-left:30px;
+  	width: 140px;
+  	font-weight:bold;
+}
+
+div.desc_main {
+  	text-align: center;
+  	font-size: 14px;
+  	margin-top:-12px;
+  	margin-left:30px;
+  	width: 140px;
+  	font-weight:bold;
+}
+
+.committee_members_image {
+  	margin:25px;
+  	border: 1px solid #27527D;
+  	-webkit-border-radius: 20px;
+  	-moz-border-radius: 20px;
+  	-webkit-box-shadow: #707070 14px 14px 14px;-moz-box-shadow: #707070 14px 14px 14px; box-shadow: #707070 14px 14px 14px;
+  	border-radius: 20px;
+  	height: 150px;
+  	width: 150px;
+  	position: relative;
+  	z-index: -2;
+}
+
+.committee_members_image:hover img {
+  	border:5px solid #0000ff;
+}
+
+.content_left_text_committee {
+	float: left;
+	position: relative;	
+	width: 350px;
+	margin: 40px;
+}
+
+.content_right_text_committee {
+	float: right;
+	position: relative;	
+	width: 350px;
+	margin: 20px;
+}
+
+/*
+ * =======================================================
+ * HR: Content
+ * =======================================================
+ */
+
+/*Features table------------------------------------------------------------*/
+.features-table {
+     width: 100%;
+     margin: 0 auto;
+     border-collapse: separate;
+     border-spacing: 0;
+     text-shadow: 0 1px 0 #fff;
+     color: #2a2a2a;
+}
+
+.circle {
+     display: block;
+     width: 150px;
+     height: 150px;
+     margin: 1em auto;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     -webkit-border-radius: 99em;
+     -moz-border-radius: 99em;
+     border-radius: 99em;
+     border: 5px solid #eee;
+     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+
+.features-table td {
+     height: 50px;
+     line-height: 50px;
+ 	 width: 50px;
+     border-bottom: 1px solid #27527D;
+     box-shadow: 0 1px 0 white;
+     -moz-box-shadow: 0 1px 0 white;
+     -webkit-box-shadow: 0 1px 0 white;
+     text-align: center;
+}
+
+/*Body*/
+.features-table tbody td {
+	 text-align: center;
+	 font-size: 12px;
+	 width: 150px;
+}
+
+.features-table tbody td:first-child {
+     width: auto;
+     text-align: left;
+}
+
+.features-table td:nth-child(2), .features-table td:nth-child(3) {
+     border-right: 1px solid #27527D;
+}
+
+.features-table td:nth-child(4) {
+}
+
+/*Header*/
+.features-table thead td {
+     font: bold 1.3em 'trebuchet MS', 'Lucida Sans', Arial;  
+     -moz-border-radius-topright: 10px;
+     -moz-border-radius-topleft: 10px; 
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-top: 1px solid #27527D; 
+}
+
+.features-table thead td:first-child {
+     border-top: none;
+}
+
+/*Footer*/
+.features-table tfoot td {
+     font: bold 1.4em Georgia;  
+     -moz-border-radius-bottomright: 10px;
+     -moz-border-radius-bottomleft: 10px; 
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom: 1px solid #27527D;
+}
+
+.features-table tfoot td:first-child {
+     border-bottom: none;
+}
+         
+/*
+ * margin for right nav Header for mr and bi page
+ */
+.right_nav h3 {
+	margin-left: 15px;
+}
+
+/*
+ * margin for right nav Header for bg and wd (Web Development) page
+ */
+.right_nav h1 {
+	margin: 15px;
+	font-size: 1.6em;
+}
+
+/*
+ * Right nav inner page layout for mr, bi page
+ */
+.right_nav .content_layout {
+	float: left;
+	font-size: 1em;
+	text-align: justify;
+	margin: 0 15px 0 15px;
+}
+
+/*
+ * ======================
+ * Activites: Content
+ * ======================
+ */
+/*
+ * Right nav inner page layout, content wrapper for bd page
+ */
+.right_nav .content_wrapper {
+	position: relative;
+	height: auto;	
+	width: 720px;
+}
+
+/*
+ * Right nav inner page layout, content text for bd page
+ */
+.right_nav div.content_text {
+	font-size: 1em;
+	text-align: justify;
+	width: 480px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+/*
+ * Right nav inner page layout, content image for bd page
+ */
+.right_nav div .content_image {
+	position: absolute;
+	top: 10px;
+	left: 515px;
+	width: 190px;
+	height: 100px;
+	margin: 10px 15px 15px 0;
+	z-index: 2; 
+}
+
+/*
+ * =============================
+ * Infrastructure: Content
+ * =============================
+ */
+/*
+ * The content blocks in the right_nav of the wd page
+ */
+.content_first, .content_second, .content_third {
+	float: left;
+	position: relative;
+	width: 700px;
+	height: auto;
+	margin: 10px;
+}
+
+/*
+ * Content Left text of the wd page
+ */
+.content_left_text {
+	float: left;
+	position: relative;	
+	width: 320px;
+	margin: 20px;
+}
+
+/*
+ * Content Right text of the wd page
+ */
+.content_right_text {
+	float: right;
+	position: relative;	
+	width: 320px;
+	margin: 20px;
+}
+
+/*
+ * Content Right Image of the wd page
+ */
+.content_right_image {
+	float: right;
+	position: relative;
+	margin: 5px 0px 5px 5px;
+	 border: 1px solid #365A7E;
+}
+
+/*
+ * Content Left Image of the wd page
+ */
+.content_left_image {
+	float: left;
+	position: relative;
+	margin: 5px 0px 5px 5px;
+	 border: 1px solid #365A7E;
+}
+
+/*
+ * Image first of the wd page
+ */
+.image_first {
+	width: 320px;
+	height: 200px;	
+}
+
+/*
+ * Image Second of the wd page
+ */
+.image_second {
+	width: 320px;
+	height: 250px;	
+}
+
+/*
+ * Image Third of the wd page
+ */
+.image_third {
+	width: 320px;
+	height: 320px;	
+}
+
+/*
+ * Note column for bd and wd page
+ */
+.note {
+	clear: both;
+	text-align: justify;
+	border-top: 1px solid #C7D9ED;
+	margin: 0px;
+	padding: 0 10px;
+}
+
+.note_bd {
+	border-bottom: 1px solid #C7D9ED;
+}
+/*
+ * ============
+ * Contact Page
+ * ============
+ */
+/*
+ * Contact Page Layout
+ */
+.contact_layout {
+	float: left;
+	font-size: 1em;
+	text-align: justify;
+	margin: 0 15px 0 15px;
+}
+
+/*
+ * Contact Page links
+ */
+.contact_layout a {
+	color: #3B5998;
+    text-decoration: none;
+}
+
+/*
+ * Contact Page left and right address
+ */
+.contact_left, .contact_right {
+	width: 350px;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+/*
+ * Contact Page headers
+ */
+.contact_left h2, .contact_right h2  {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	border-radius: 5px;
+	color: #444;
+	margin: 0;
+	background-color: #F2F2F2;
+	padding: 2px 10px 3px;
+	border: 1px solid #E1E1E1;
+	width: 120px;
+}
+
+/*
+ * Contact Page: Padding for the span and the p tag
+ */
+.contact_left p, .contact_left span, .contact_right p, .contact_right span {
+	display: block;
+	padding-left: 15px;
+}
+
+/*
+ * Contact Page address location
+ */
+.address_location {
+	font-weight: bold;
+	color: #3B5998;
+}
+
+/*
+ * ====================
+ * Privacy and tos page
+ * ====================
+ */
+#content_privacy p, #content_terms p {
+	font-family: Calibri, Verdana, Arial;
+	font-size: 10pt;
+	text-align: justify;
+}
+
+.bold {
+	font-weight: bold;		/* Sets the font weight to bold */
+}
+
+.normal {
+	font-weight: normal;	/* Sets the font weight to normal */
+}
+
+.italic {
+	font-style: italic;		/* Sets the font style to italic */
+}
+
+/* 
+ * ==========
+ * Bottom bar
+ * ==========
+ */
+#bottom_bar {  
+	font-size: 10px; 
+	text-align: left; 
+	color: #6e6e6e; 
+	position: relative;
+	width: 970px;
+	margin: 0 auto 22px;
+}
+
+/*
+ * Copyright text
+ */
+span.copyright {
+	text-align: left;
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+/*
+ * Bottom bar links 
+ */
+.bottom_bar_links {
+	width: auto;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.bottom_bar_links li {
+	float: left;
+	display: inline;
+	padding-left: 10px; 
+	margin-bottom: 0;
+	width: auto; 
+	color: #336699;
+}
+
+.bottom_bar_links li a, .bottom_bar_links li a:hover {
+	color: #3B5998;
+	text-decoration: none;
+}
+

@@ -1,0 +1,52 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                          controllers.Application.index()
+
+# About page
+GET     /about                     controllers.Application.about()
+
+# Infrastructure page
+GET     /infrastructure            controllers.Application.infrastructure()
+
+# HR page
+GET     /hr           			   controllers.Application.hr()
+
+# Activities page
+GET     /activities           	   controllers.Application.activities()
+
+# Presentations page
+GET     /presentations             controllers.Application.presentations()
+
+# Training Details page
+GET     /training_details          controllers.Application.trainingDetails()
+
+# Health Statistics page
+GET     /health_statistics         controllers.Application.healthStatistics()
+
+# Health Days page
+GET     /health_days           	   controllers.Application.healthDays()
+
+# Reports by SIHFW
+GET     /reports           	  	   controllers.Application.reports()
+
+# Download Files page
+GET     /download/:file       	   controllers.Application.downloadFile(file)
+
+# Photo page
+GET     /photos           		   controllers.Application.photos()
+
+# Committee page
+GET     /committee           	   controllers.Application.committee()
+
+# Archetypal page
+GET     /archetypal           	   controllers.Application.archetypal()
+
+# Contact Us page
+GET     /contact                   controllers.Application.contact()
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file              controllers.Assets.at(path="/public", file)

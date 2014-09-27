@@ -1,0 +1,66 @@
+@(message: String)
+@main(message) {
+<div class="content_container">
+   <div class="left_nav" id="bd_left_nav">
+      <h2 class="services" id="bd_left_nav_sevices">Services</h2>
+      <ul>
+      	 <li class="left_nav_link"><a id="about_left_nav_training_details" href="/training_details">Training Details<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_health_statistics" href="/health_statistics">Health Statistics<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_health_days" href="/health_days">Health Days & Themes<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_reports" href="/reports">Reports by SIHFW<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_committee" href="/committee">Reports Committee<span class="left_nav_arrow"></span></a>
+ 	  </ul>
+   </div>
+   <div class="right_nav" id="bd_right_nav">
+      <h3 id="bd_right_nav_header">Infrastructure</h3>
+      <div class="content_first" id="wd_right_nav_content_first">
+         <div class="content_left_text" id="wd_right_nav_content_first_left_text">
+            <p id="wd_right_nav_content_first_left_text_p">	<b>Administrative Block</b></br>Administrative block has three Class Rooms, Meeting Hall, Chambers of Director, Jt. Director, Dy. Directors, CTI-Consultants, rooms for other office staffs and a superior Computer lab for 30 participants.
+            </p>
+         </div>
+         <img class="content_right_image image_first" id="wd_right_nav_content_first_right_image" src="@routes.Assets.at("images/infrastructure/1.png")" />
+      </div>
+      <div class="content_second" id="wd_right_nav_content_second">
+         <img class="content_left_image image_second" id="wd_right_nav_content_second_image" src="@routes.Assets.at("images/infrastructure/2.png")" />
+         <div class="content_right_text" id="wd_right_nav_content_second_right_text" >
+            <p id="wd_right_nav_content_second_text_p"><b>
+               Hostel and Seminar</b></br>
+               The Seminar Hall is air-conditioned with a seating capacity of 60. It is well equipped with Public addressing systems, lighting systems, LCD Projector Accommodation facility.Hostel Block has 16 rooms with Dining and Recreation Room, Chambers for Director and Library
+            </p>
+         </div>
+      </div>
+      <div class="content_third" id="wd_right_nav_content_third">
+         <div class="content_left_text" id="wd_right_nav_content_third_left_content">
+            <p id="wd_right_nav_content_third_left_content_p"><b>
+               Seminar Hall 2</b></br>
+               One of the most modern seminar hall using for TOT and other ongoing activities like review meetings counselling activities. Some part of the building is provided to HFWTC Bangalore, has got full pledged SBA skill lab to conduct State level TOTs.</br>
+         </div>
+         <img class="content_right_image image_first" id="wd_right_nav_content_first_right_image" src="@routes.Assets.at("images/infrastructure/3.jpg")" />
+      </div>
+      <div class="content_second" id="wd_right_nav_content_second">
+         <img class="content_left_image image_second" id="wd_right_nav_content_second_image" src="@routes.Assets.at("images/infrastructure/4.png")" />
+         <div class="content_right_text" id="wd_right_nav_content_second_right_text" >
+            <p id="wd_right_nav_content_second_text_p"><b>Hostels </b></br>
+               New hostel is having 10 fully furnished twin bedded A/C rooms and 15 Non A/C rooms with colour TV and an attractive reception hall. In house catering services is also available </br>
+         </div>
+      </div>
+      <div class="content_first" id="wd_right_nav_content_first">
+         <div class="content_left_text" id="wd_right_nav_content_third_left_content">
+            <p id="wd_right_nav_content_third_left_content_p"><b>CHPN Building
+               </b></br>
+               Is the centre for the Certificate Course in Public Health Nursing (CPHN) for senior female Health workers with A.C- training hall, computer room, staff room etc., It also accommodates Karnataka State Health System Resource Centre (KHSRC) </br>
+         </div>
+         <img class="content_right_image image_first" id="wd_right_nav_content_first_right_image" src="@routes.Assets.at("images/infrastructure/5.png")" />
+      </div>
+      <div class="content_second" id="wd_right_nav_content_second">
+         <img class="content_left_image image_second" id="wd_right_nav_content_second_image" src="@routes.Assets.at("images/infrastructure/8.jpg")" />
+         <div class="content_right_text" id="wd_right_nav_content_second_right_text" >
+            <p id="wd_right_nav_content_second_text_p"><b>
+               HFWTC
+               </b></br>
+               The State Institute is supported by 4 Regional HFWTCs and 19 DTCs, which are fully equipped with modern teaching aids, and hostel facilities, to train the staff of HFW Department. </br>
+         </div>
+      </div>
+   </div>
+</div>
+}

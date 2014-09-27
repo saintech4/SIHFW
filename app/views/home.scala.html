@@ -1,0 +1,60 @@
+@(message: String)
+@main(message) {
+<link rel="stylesheet" href="@routes.Assets.at("stylesheets/plugins/themes/default/default.css")" type="text/css" media="screen" />
+<link rel="stylesheet" href="@routes.Assets.at("stylesheets/plugins/nivo-slider.css")" type="text/css" media="screen" />
+<div class="content_container">
+   <div class="left_nav" id="about_left_nav">
+      <h2 class="services" id="about_left_nav_sevices">Services</h2>
+      <ul>
+    	 <li class="left_nav_link"><a id="about_left_nav_training_details" href="/training_details">Training Details<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_health_statistics" href="/health_statistics">Health Statistics<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_health_days" href="/health_days">Health Days & Themes<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_reports" href="/reports">Reports by SIHFW<span class="left_nav_arrow"></span></a></li>
+         <li class="left_nav_link"><a id="about_left_nav_committee" href="/committee">Reports Committee<span class="left_nav_arrow"></span></a>
+ 	</ul>
+   </div>
+   <div class="right_nav" id="about_right_nav">
+      <div class="page_banner" id="about_right_nav_page_banner">
+         <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+            <a href="/infrastructure"><img src="@routes.Assets.at("images/home/images.jpg")" data-thumb="@routes.Assets.at("images/home/images.jpg")" alt="" /></a>
+               <a href="/infrastructure"><img src="@routes.Assets.at("images/home/home-mr.jpg")" data-thumb="@routes.Assets.at("images/home/home-mr.jpg")" alt="" /></a>
+    <a href="/infrastructure"><img src="@routes.Assets.at("images/home/11.jpg")" data-thumb="@routes.Assets.at("images/home/11.jpg")" alt="" /></a>
+               
+               <a href="/about"><img src="@routes.Assets.at("images/home/health-home.jpg")" data-thumb="@routes.Assets.at("images/home/health-home.jpg")" alt="" data-transition="slideInLeft"/></a>
+               <a href="/infrastructure"><img src="@routes.Assets.at("images/home/health-home.jpg")" data-thumb="@routes.Assets.at("images/home/health-home.jpg")" alt="" data-transition="slideInLeft"/></a>
+            </div>
+         </div>
+      </div>
+      </br>
+      </br>
+      <h3 id="about_right_nav_header">Welcome to SIHFW Karnataka</h3>
+      <div class="content_layout" id="about_right_nav_conent">
+         <p id="about_right_nav_conent_p1">Karnataka state is one of the pioneer states in the country in providing comprehensive public health services to its people. Even before the concept of Primary Health Centers was conceived by the government of India, the state had already made a beginning in establishing a number of PHU's for providing comprehensive Health Care, and a delivery system consisting of curative, preventive, promotive and rehabilitation health care, to the people of the state. "HEALTH" is an asset to every person.
+         </p>
+         <p id="about_right_nav_conent_p2"> <strong>STATE INSTITUTE OF HEALTH AND FAMILY WELFARE</strong></font></br>
+         </p>
+         <ol>
+            <li>
+               <p>The State Institute of Health and Family Welfare is an apex level training institute of the Health and Family Welfare Department Which was established in 1996, under IPP –IX (K).</p>
+            </li>
+            <li>
+               <p>The State Institute of Health & Family Welfare, Bangalore is recognized as one of the 16 Collaborative Trainings Institutes for RCH Training by NIHFW, New Delhi.</p>
+            </li>
+            <li>
+               <p>SIHFW caters trainings to all cadres of Health staff of the dept in technical and administrative skills. </p>
+            </li>
+            <li>
+               <p>The institute conducts various trainings under NRHM, RCH, National programmes, ASHA and disease control programmes.</p>
+            </li>
+            <li>
+               <p>The Trainings impart the requisite knowledge and skills enabling the health care providers to deliver effective services at all delivery points.</p>
+            </li>
+            <li>
+               <p>Certificate of Public Health Nursing Course (CPHN) an eighteen months certified course in public health nursing for in service senior health assistants(F) in a batch of  25 person.</p>
+            </li>
+         </ol>
+              	 </div>
+   </div>
+</div>
+}
